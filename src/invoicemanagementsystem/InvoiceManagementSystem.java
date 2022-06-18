@@ -13,8 +13,13 @@ public class InvoiceManagementSystem {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args) throws ClassNotFoundException {
+        LoginFrame loginFrame = new LoginFrame();
+        loginFrame.setVisible(true);
+
+//        InvoiceFrame invoiceFrame = new InvoiceFrame();
+//        invoiceFrame.setVisible(true);
+
     }
     
 }
